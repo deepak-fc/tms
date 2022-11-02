@@ -63,7 +63,7 @@ body {
 }
 
 .containert .button input {
-    font-color: white;
+    color: white;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
     border-radius: 5px;
     border: none;
@@ -204,7 +204,7 @@ $con = pg_connect("host=localhost dbname=management port=5432 user=postgres pass
 // Check for connection success
 
 if(!$con){
-    die("connection to this database failed due to" . pg_connect_error());
+    die("Connection to database failed!");
 }
 
 if($_SERVER['REQUEST_METHOD']=='POST')
@@ -223,7 +223,7 @@ if(pg_query($con,$psql) == true){
   $insert = true;
 }
 else{
-  echo "ERROR: $psql <br> $con->error";
+  echo "ERROR: $psql <br> var_dump($con)";
 }
 
 }

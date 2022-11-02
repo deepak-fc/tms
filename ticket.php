@@ -3,17 +3,21 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Railway Reservation System</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body class="bgimg">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <?php
             if(isset($_SESSION['fname'])){ 
 
@@ -27,7 +31,7 @@ session_start();
             ?>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="nav-link adv" href="index.php">Home</a>
+                    <a class="nav-link adv" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link adv" href="aboutus.php">About Us</a>
@@ -52,11 +56,11 @@ session_start();
             
             ?>
             </ul>
-          </div>
-        </nav>
-<marquee direction="left" scrollamount='10' class="text-light">Welcome to RAILWAY RESERVATION PORTAL</marquee>
-<h1 class="text-center" style="color: #bff5cd;">ONLINE RAIL RESERVATION</h1>
-<?php  
+        </div>
+    </nav>
+    <marquee direction="left" scrollamount='10' class="text-light">Welcome to RAILWAY RESERVATION PORTAL</marquee>
+    <h1 class="text-center" style="color: #bff5cd;">ONLINE RAIL RESERVATION</h1>
+    <?php  
  echo '<table class=" listtable table-light text-center table table-bordered table-hover mt-5" style="opacity: 0.9; width: 80%; margin: auto;">
  <tr>
      <th>Ticket No.</th>
@@ -76,7 +80,7 @@ session_start();
  $con = pg_connect("host=localhost dbname=railway_system port=5432 user=postgres password=abhishek");
  // Check for connection success
  if(!$con){
-     die("connection to this database failed due to" . pg_connect_error());
+     die("connection to this database failed");
  }
     $uname=$_SESSION['uname'];
      $sql = "SELECT * FROM ticket WHERE name= '".$uname."';";
@@ -110,9 +114,14 @@ session_start();
 
 ?>
 
-<script src="index.js"></script>
+    <script src="index.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

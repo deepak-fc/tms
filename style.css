@@ -1,281 +1,276 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('o-TRAVEL-facebook.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("o-TRAVEL-facebook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
-    min-height: 32px;
-    padding: 1.5em 0;
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    clear: both;
-    border-bottom: 0 solid rgba(128, 128, 128, 0.17);
-    background: white;
-    height: 80px;
+  min-height: 32px;
+  padding: 1.5em 0;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  clear: both;
+  border-bottom: 0 solid rgba(128, 128, 128, 0.17);
+  background: white;
+  height: 80px;
 }
 
 .navbar-collapse ul {
-    float: right;
-    margin: 0.3em 0.1em 0 0;
+  float: right;
+  margin: 0.3em 0.1em 0 0;
 }
 
 .navbar-collapse ul li {
-    display: inline-block;
-    margin: 0 0.2em;
+  display: inline-block;
+  margin: 0 0.2em;
 }
 
 .navbar-collapse ul li a {
-    color: #60B0E6;
-    text-decoration: none;
-    padding: 0.4em 1.5em;
-    display: block;
-    border: 1px solid #fff;
-    font-size: 1.1em;
-    font-weight: 400;
+  color: #60b0e6;
+  text-decoration: none;
+  padding: 0.4em 1.5em;
+  display: block;
+  border: 1px solid #fff;
+  font-size: 1.1em;
+  font-weight: 400;
 }
 
 .navbar-collapse ul li.active a,
 .navbar-collapse ul li a:hover,
 #nav .current a {
-    border: 1px solid #60B0E6;
+  border: 1px solid #60b0e6;
 }
-
 
 /*registration*/
 
 .containerf {
-    position: absolute;
-    left: 300px;
-    top: 100px;
-    max-width: 700px;
-    width: 100%;
-    background-color: transperant;
-    padding: 25px 30px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  max-width: 700px;
+  width: 100%;
+  background-color: transperant;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .containerf .title {
-    font-size: 25px;
-    font-weight: 500;
-    position: relative;
-    color: white;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  color: white;
 }
 
 .content form .user-details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 0 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
 }
 
 .containerf .title::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 630px;
-    border-radius: 5px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 630px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
 form .user-details .input-box {
-    margin-bottom: 15px;
-    width: calc(100% / 2 - 20px);
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
 }
 
 form .input-box span.details {
-    display: block;
-    font-weight: 500;
-    margin-bottom: 5px;
-    color: white;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: white;
 }
 
 .user-details .input-box input {
-    height: 45px;
-    width: 100%;
-    outline: none;
-    font-size: 16px;
-    border-radius: 5px;
-    padding-left: 15px;
-    border: 1px solid #ccc;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
 }
 
 .user-details .input-box input:focus,
 .user-details .input-box input:valid {
-    border-color: #9b59b6;
+  border-color: #9b59b6;
 }
 
 form .gender-details .gender-title {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 form .button {
-    height: 45px;
-    margin: 35px 0;
+  height: 45px;
+  margin: 35px 0;
 }
 
 form .button input {
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-    border: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
 form .button input:hover {
-    /* transform: scale(0.99); */
-    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
-@media(max-width: 584px) {
-    .container {
-        max-width: 100%;
-    }
-    form .user-details .input-box {
-        margin-bottom: 15px;
-        width: 100%;
-    }
-    form .category {
-        width: 100%;
-    }
-    .content form .user-details {
-        max-height: 300px;
-        overflow-y: scroll;
-    }
-    .user-details::-webkit-scrollbar {
-        width: 5px;
-    }
+@media (max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category {
+    width: 100%;
+  }
+  .content form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar {
+    width: 5px;
+  }
 }
 
-@media(max-width: 459px) {
-    .container .content .category {
-        flex-direction: column;
-    }
+@media (max-width: 459px) {
+  .container .content .category {
+    flex-direction: column;
+  }
 }
 
 .gender-details input {
-    height: 45px;
-    width: 100%;
-    outline: none;
-    font-size: 16px;
-    border-radius: 5px;
-    padding-left: 15px;
-    border: 1px solid #ccc;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
 }
 
 form .gender-details .input-box {
-    margin-bottom: 15px;
-    width: 100%;
+  margin-bottom: 15px;
+  width: 100%;
 }
 
 form .input-box span.details {
-    display: block;
-    font-weight: 500;
-    margin-bottom: 5px;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .gender-details input:focus,
 .gender-details input:valid {
-    border-color: #9b59b6;
+  border-color: #9b59b6;
 }
 
-
 /*end of registration*/
-
 
 /*Add package*/
 
 .containert {
-    position: absolute;
-    left: 300px;
-    top: 100px;
-    max-width: 1000px;
-    width: 100%;
-    background-color: white;
-    padding: 25px 30px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    overflow-x: hidden;
-    display: block;
-    height: 550px;
-    overflow-y: auto;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  max-width: 1000px;
+  width: 100%;
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  overflow-x: hidden;
+  display: block;
+  height: 550px;
+  overflow-y: auto;
 }
 
 .containert .button input {
-    font-color: white;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
-    border-radius: 5px;
-    border: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    cursor: pointer;
-    height: 45px;
-    margin: 25px 0;
-    width: 20%;
+  color: white;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  height: 45px;
+  margin: 25px 0;
+  width: 20%;
 }
 
 .containert .button input:hover {
-    /* transform: scale(0.99); */
-    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
 .containert input:focus,
 .containert input:valid {
-    border-color: #9b59b6;
+  border-color: #9b59b6;
 }
 
 .user-details p {
-    font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.user-details input[type=text] {
-    margin-bottom: 15px;
-    height: 45px;
-    width: 50%;
-    outline: none;
-    font-size: 0.9em;
-    border-radius: 5px;
-    padding-left: 15px;
-    border: 1px solid #ccc;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
-    border-color: #9b59b6;
+.user-details input[type="text"] {
+  margin-bottom: 15px;
+  height: 45px;
+  width: 50%;
+  outline: none;
+  font-size: 0.9em;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border-color: #9b59b6;
 }
 
 .user-details textarea {
-    margin-bottom: 15px;
-    width: 50%;
-    outline: none;
-    font-size: 16px;
-    border-radius: 5px;
-    padding-left: 15px;
-    border: 1px solid #ccc;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
-    height: 100px;
-    border-color: #9b59b6;
+  margin-bottom: 15px;
+  width: 50%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  height: 100px;
+  border-color: #9b59b6;
 }
-
-.containert .button input {}
-
 
 /*End of add package*/

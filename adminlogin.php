@@ -1,28 +1,29 @@
-<!DOCTYPE html> 
-<head> 
-<meta charset="utf-8"> 
-<title>Tour managment</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="stylee.css">
-<link href="bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="C:\xampp\htdocs\New folder\css\bootstrap.min.css" rel='stylesheet' type='text/css'/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="index.js"> </script>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="index.js"> </script>
-<style>
-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('o-TRAVEL-facebook.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-</style>
-</head> 
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tour managment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylee.css">
+    <link href="bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="C:\xampp\htdocs\New folder\css\bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"> </script>
+    <style>
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('o-TRAVEL-facebook.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+</head>
 
 <body>
-<!--java Script-->
-<?php
+    <!--java Script-->
+    <?php
   
  // $con = pg_connect("host=localhost dbname=management port=5432 user=postgres password=admin");
 
@@ -59,17 +60,19 @@ $con = mysqli_connect("localhost", "root", "", "mca_proj");
     }
   }
 ?>
-<!--end of script-->
+    <!--end of script-->
 
 
-<!--html login-->
+    <!--html login-->
     <div id="login">
-        <h3 class="text-center text-white pt-5" style="position:relative;left:10px;top:100px;color:white;">Admin Login</h3>
+        <h3 class="text-center text-white pt-5" style="position:relative;left:10px;top:100px;color:white;">Admin Login
+        </h3>
         <div class="container " style="position:absolute;left:50px">
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" onsubmit="return UserLogin1()" action="adminlogin.php" method="post">
+                        <form id="login-form" class="form" onsubmit="return UserLogin1()" action="adminlogin.php"
+                            method="post">
                             <h3 class="text-center text-info">Login</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info">Username:</label><br>
@@ -80,7 +83,8 @@ $con = mysqli_connect("localhost", "root", "", "mca_proj");
                                 <input type="password" name="password" id=" password" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input
+                                            id="remember-me" name="remember-me" type="checkbox"></span></label><br>
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Login">
                             </div>
                             <!--<div id="register-link" class="text-right">
@@ -93,12 +97,12 @@ $con = mysqli_connect("localhost", "root", "", "mca_proj");
         </div>
     </div>
 
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
 
 
