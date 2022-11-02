@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Tour managment</title> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <style>
+   .file-upload{
+    display:inline-flex;
+    align-items:center;
+    font-size:15px;
+    }
+
+   .file-upload__input{
+    display:none;
+    }
+
+    .file-upload__button{
+     -webkit-appearance:none;
+     background:linear-gradient(135deg, #71b7e6, #9b59b6);
+     border:none;border-radius:5px;outline:none;
+     font-size: 12px;cursor: pointer;
+     height: 30px;width:100px;
+     margin-right:15px;margin-left:5px;
+     color:white;
+     
+     }
+    
+    .file-upload__button:hover{
+      background:linear-gradient(-135deg, #71b7e6, #9b59b6);
+     }
+
+    .file-upload__label{
+     max-width:250px;
+     font-size:14px;
+     text-overflow:ellipse;
+     overflow:hidden;
+     white-space:nowrap;
+     }
+  </style>
+ </head>
+ <body>
+   <div class="file-upload">
+    <input class="file-upload__input" type="file" name="myFile[]" id="myFile" multiple>
+    <button class="file-upload__button" type="button">Choose file(s)</button>
+    <span class="file-upload__label"></span>
+   </div>
+ <script>
+   Array.prototype.forEach.call(document.querySelectorAll('.file-upload__button'). function(button){
+    const hiddenInput=button.parentElement.querySelector('.file-upload__input');
+    const label=button.parentElement.querySelector('.file-upload__label');
+    const defaultLabelText ='No file(s) selected';
+
+    label.textContent=defaultLabelText;
+    label.title=defaultLabelText;
+    
+    button.addEventListener('click',function(){
+      hiddenInput.click();
+      });
+
+   hiddenInput.addEventListener('change',function(){
+         
+        const filenameList=Array.prototype.map.call(hiddenInput.files,function(file){
+        return file.name;
+       }); 
+        console.log(filenameList);
+     });
+    });
+ </script> 
+   
+ </body>
+</html>
