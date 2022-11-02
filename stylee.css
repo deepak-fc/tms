@@ -62,6 +62,11 @@ ul {
 
 /*--header-top--*/
 
+.img {
+  width: 100px;
+  height: 250px;
+}
+
 .header-top {
   background: #fff;
   min-height: 32px;
@@ -441,6 +446,7 @@ ul {
 
 .about-grids {
   margin-top: 3.5em;
+  text-align: center;
 }
 
 .about-grids h4 span {
@@ -479,8 +485,7 @@ ul {
 }
 
 .about-grids p {
-  margin-left: 4em;
-  width: 87%;
+  margin-top: 20px;
   line-height: 23px;
   color: #9ea4a9;
 }
@@ -1207,35 +1212,8 @@ h6.b-animate.b-from-left.b-delay03 {
 }
 
 .social-icons a span {
-  width: 44px;
-  height: 39px;
-  background: url("social-icons.png") no-repeat 0px 0px;
   display: inline-block;
-  margin: 0 0.5em;
-}
-
-.social-icons a span.facebook {
-  background-position: 0px 0px;
-}
-
-.social-icons a span.twitter {
-  background-position: -63px 0px;
-}
-
-.social-icons a span.googleplus {
-  background-position: -127px 0px;
-}
-
-.social-icons a span.pinterest {
-  background-position: -190px 0px;
-}
-
-.social-icons a span.instagram {
-  background-position: -254px 0px;
-}
-
-.social-icons a span:hover {
-  opacity: 0.4;
+  margin: 0 0.2em;
 }
 
 .social-icons {
@@ -1279,13 +1257,6 @@ h6.b-animate.b-from-left.b-delay03 {
   }
   .about {
     padding-top: 9%;
-  }
-  .about-grids {
-    margin-top: 3em;
-  }
-  .about-grids p {
-    width: 85%;
-    line-height: 20px;
   }
   .about-grids h4 span.icon1:hover {
     background-position: 1px -48px;
@@ -1404,14 +1375,6 @@ h6.b-animate.b-from-left.b-delay03 {
   }
   .about {
     padding-top: 11%;
-  }
-  .about-grids {
-    margin-top: 1em;
-    text-align: center;
-  }
-  .about-grids p {
-    width: 87%;
-    margin-top: 1em;
   }
   .grid2 h4 {
     margin-right: 1em;
@@ -1575,10 +1538,6 @@ h6.b-animate.b-from-left.b-delay03 {
   .about {
     padding-top: 18%;
   }
-  .about-grids p {
-    overflow: hidden;
-    height: 23px;
-  }
   .top-tours-head {
     padding-top: 18%;
   }
@@ -1711,19 +1670,8 @@ h6.b-animate.b-from-left.b-delay03 {
   .about-head span {
     width: 16.5%;
   }
-  .about-grids {
-    padding-left: 0;
-  }
-  .about-grids h4 {
-    font-size: 1.2em;
-  }
   .grid2 h4 {
     margin-right: 1.2em;
-  }
-  .about-grids p {
-    margin-left: 1em;
-    width: 92%;
-    margin-top: 0.5em;
   }
   .top-tours-head {
     padding-top: 25%;

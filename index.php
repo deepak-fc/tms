@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tour managment</title>
+    <title>Tour Managment</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="bootstrap.css" rel='stylesheet' type='text/css' />
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="top-nav">
                 <div class="navbar-header">
-                    <a href=""><img class="logo" src="TWlogo.jpg" style="height:40px;padding:2px 10px;"></a>
+                    <a href=""><img class="logo" src="images/TWlogo.jpg" style="height:40px;padding:2px 10px;"></a>
                 </div>
                 <div class="menu">
                     <ul id="nav">
@@ -50,7 +50,7 @@
         <div id="top" class="callbacks_container">
             <ul class="rslides" id="slider4">
                 <li>
-                    <img src="o-TRAVEL-facebook.jpg" alt="">
+                    <img src="images/o-TRAVEL-facebook.jpg" alt="">
                     <div class="caption">
                         <div class="header-info">
                             <h2><a href="#">Your Trusted Travel Packages and Services</a></h2>
@@ -107,61 +107,33 @@
                 <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
                         <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/image1.jfif" class="img-responsive" alt="" /></a>
+                            <img src="images/image1.jfif" class="img-responsive img" alt="" /></a>
                     </div>
                 </div>
                 <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
                         <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/images2.jfif" class="img-responsive" alt="" /></a>
+                            <img src="images/image2.jfif" class="img-responsive img" alt="" /></a>
                     </div>
                 </div>
                 <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
                         <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/images3.jfif" class="img-responsive" alt="" /></a>
+                            <img src="images/image3.jfif" class="img-responsive img" alt="" /></a>
 
                     </div>
                 </div>
                 <div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
                         <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/images4.jfif" class="img-responsive" alt="" /></a>
-
-                    </div>
-                </div>
-                <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-                    <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
-                        <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/images5.jpg" class="img-responsive" alt="" /></a>
-
-                    </div>
-                </div>
-                <div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
-                    <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
-                        <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/images6.jfif" class="img-responsive" alt="" /></a>
-
-                    </div>
-                </div>
-                <div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
-                    <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
-                        <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/images7.jfif" class="img-responsive" alt="" /></a>
-
-                    </div>
-                </div>
-                <div class="portfolio icon mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
-                    <div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
-                        <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                            <img src="img/images8.jfif" class="img-responsive" alt="" /></a>
+                            <img src="images/image4.jfif" class="img-responsive img" alt="" /></a>
 
                     </div>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!--end of top tour-->
 
     <!--footer-->
@@ -184,17 +156,17 @@
                         </div>
                     </div>
                     <div class="social-icons">
-                        <a href="#"><span class="facebook"> </span></a>
-                        <a href="#"><span class="twitter"> </span></a>
-                        <a href="#"><span class="googleplus"> </span></a>
-                        <a href="#"><span class="pinterest"> </span></a>
-                        <a href="#"><span class="instagram"> </span></a>
+                        <a href="#"><span class="facebook">Facebook</span></a>
+                        <a href="#"><span class="twitter">Twitter</span></a>
+                        <a href="#"><span class="googleplus">Google</span></a>
+                        <a href="#"><span class="pinterest">Pinterest</span></a>
+                        <a href="#"><span class="instagram">Instagram</span></a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="clearfix"></div>
             </div>
-        </div>-->
+        </div>
     </div>
     <div class="copyright text-right">
         <p style="padding-right:100px"></p>
